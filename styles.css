@@ -36,6 +36,11 @@ button {
     padding: 2px 24px;
 }
 
+.hero img {
+    height: 200px;
+    width: 800px;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -87,20 +92,28 @@ button {
 
 .call-to-action {
     display: flex;
-    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 32px;
+    border-radius: 4px;
+    padding: 32px;
+}
+
 
 footer {
     display: flex;
     background-color: #1F2937;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
 }
 
-.footer-text {
-    text-align: center;
-    align-items: center;
-}
 
     
 
