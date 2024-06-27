@@ -1,6 +1,15 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     background-color: #1F2937;
     padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .main-text {
@@ -9,26 +18,71 @@ header {
     color: #F9FAF8;
 }
 
-.sub-text {
+.sub-text, .links {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.sub-text {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    font-size: 24px;
+    color: #E5E7EB;
+    padding: 2px 24px;
+}
+
 .menu {
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .hero {
     display: flex;
+    margin-top: 32px;
 }
+
+
 
 .information {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .quote-section {
     display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-by {
+    text-align: right;
 }
 
 .call-to-action {
@@ -39,6 +93,13 @@ header {
 footer {
     display: flex;
     background-color: #1F2937;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+    align-items: center;
 }
 
     
