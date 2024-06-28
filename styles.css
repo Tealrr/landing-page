@@ -21,6 +21,13 @@ header {
 .sub-text, .links {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 16px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .sub-text {
@@ -65,12 +72,45 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 32px;
 }
+
 
 .points {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.points img {
+    height: 150px;
+    width: 150px;
+}
+
+.point {
+    width: 22%;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.point img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-color: #3882F6;
+    border-width: 6px;
+}
+
+.point1-text {
+    font-size: 1rem;
+    width: 100%;
 }
 
 .quote-section {
@@ -84,10 +124,13 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    font-weight: 100;
 }
 
 .quote-by {
     text-align: right;
+    font-weight: bold;
+    margin: 16px;
 }
 
 .call-to-action {
@@ -97,9 +140,15 @@ button {
     padding: 16px;
 }
 
+.container2 button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    white-space: nowrap;
+}
+
 .container2 {
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #3882F6;
     margin: 32px;
@@ -107,11 +156,33 @@ button {
     padding: 32px;
 }
 
+.call-texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 96px;
+}
+
+.call-text1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call-text2 {
+    color: #E5E7EB;
+    font-size: 12px;
+}
 
 footer {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    margin: 24px;
 }
 
 
